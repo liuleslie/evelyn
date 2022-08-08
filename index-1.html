@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'/>
+		<meta name='viewport' content='width=device-width, initial-scale=1'/>
+		<title>Evelyn Bi</title>
+		<style>
+			body {
+				margin: 2em;
+				font-size: 16px;
+				background-color: whitesmoke;
+			}
+			a {
+				transition: 0.25s;
+				color: gray;
+				text-decoration: none;
+			}
+			a:hover {
+				transition: 0.5s;
+				color: black;
+				text-decoration: none;
+			}
+			body {
+				display: grid;
+				height: 90vh;
+				grid-template-rows: 1fr 3fr 2fr;
+			}
+			header, #gallery, #walltext {
+				overflow: scroll;
+			}
+			.title {
+				padding-right: 1em;
+				font-weight: bolder;
+				/*text-decoration: 1px black solid underline;*/
+			}
+			header, #gallery {
+				border-bottom: 1px black dotted;
+			}
+			img {
+				display: inline-block;
+				width: 20vw;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<p><span class="title">About</span>Evelyn Bi is a fine artist and writer pursuing her BFA in Painting at Boston University. She works primarily with oil and wood, and her current research interests include animal structures, archaeology, cel animation, and the interaction between frame and painting.</p>
+			<p><span class="title">Contact</span> <a href="#">CV</a>, <a href="https://www.instagram.com/evelynbiart/">Instagram</a>, <a href="">Email</a></p>
+		</header>
+		<section id="gallery">
+			<img src="images/48.png">
+			<img src="images/53.png">
+			<img src="images/55.png">
+			<img src="images/39.png">
+			<img src="images/42.png">
+		</section>
+		<section id="walltext">
+		</section>
+	</body>
+</html>
